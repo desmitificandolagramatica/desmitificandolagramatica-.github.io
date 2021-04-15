@@ -1,0 +1,82 @@
+html {
+  scroll-behavior: smooth;
+}
+@font-face{
+	font-family: "Freestyle Script";
+	src: url("../fonts/freescript.ttf");
+}
+
+.text-font-freestyle{
+	font-family: "Freestyle Script"
+}
+
+.text-gram{
+	font-size: 5rem;
+}
+
+.text-gram-title{
+	font-size: 2.5rem;
+}
+
+.text-gram-block{
+	padding: 5px;
+	background: black
+}
+
+.rect{
+	padding-top: .5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.rect-aqua{
+	background: -webkit-linear-gradient(top,#1edfb2, #17d2a7);
+	color: #ffffff;
+}
+
+.rect-blue{
+	background: -webkit-linear-gradient(top,#1e3fb2, #1732a7);
+	color: #ffffff;
+}
+
+.ribbon-history{
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.ribbon-history h1{
+	transform: translate(-50%, -50%);
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+}
+
+.ribbon-history img{
+	width: 100%;
+}
+
+	
+.fixed-bar{
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	background-color: #DDD;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.fixed-bar-right{
+	right: 0;
+}
+
+.fixed-bar-left{
+	left: 0;
+}
