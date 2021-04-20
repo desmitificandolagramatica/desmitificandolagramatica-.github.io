@@ -50,12 +50,13 @@ html {
 	color: white;
 }
 
-.ribbon-history h1{
+.ribbon-history h1,
+.ribbon-history .ribbon-text{
 	transform: translate(-50%, -50%);
-	  position: absolute;
-	  top: 50%;
-	  left: 50%;
-	  transform: translate(-50%, -50%);
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
 }
 
 .ribbon-history img{
