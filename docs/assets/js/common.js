@@ -17,15 +17,14 @@ function printData(){
 	ww.document.write(`<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="../../assets/css/main.css">`)
     ww.document.write('</head><body >');
-    ww.document.write('<h1>' + document.title  + '</h1>');
     ww.document.write(document.getElementById('data').innerHTML);
     ww.document.write('</body></html>');
-
     ww.document.close(); // necessary for IE >= 10
+
     ww.focus(); // necessary for IE >= 10
 
     ww.print();
-    ww.close();
+    //ww.close();
 }
 
 function readImg(input, id) {

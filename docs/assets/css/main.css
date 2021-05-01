@@ -81,3 +81,18 @@ html {
 .fixed-bar-left{
 	left: 0;
 }
+
+.text-justify{
+	text-align: justify;
+}
+
+
+.btn-p-none{
+	padding: 0px;
+}
+
+.footer-fixed {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+}
