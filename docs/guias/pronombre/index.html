@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="../../assets/img/logo.png">
+	<title>Pronombre | Desmitificando la gramática</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../../assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/drag-n-drop.css">
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+	<style type="text/css">
+		.text-yellow{
+			background: yellow;
+		}
+
+		.text-blue{
+			background: cyan;
+		}
+
+		.text-red{
+			background: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="spirit-block w-100">
+		<div class="text-center mb-2" id="head-s">
+			<span class="text-gram-block text-gram-title text-light">Desmitificando</span>
+			<span class="text-gram-title"> la </span>
+			<span class="text-font-freestyle text-gram">gramática</span>
+			<div class="col-8 offset-2">
+				<div class="container">
+					<div class="row">
+						<div class="col-3 pt-3">
+							<img src="../../assets/img/inem.png" class="w-100">
+						</div>
+						<div class="col-6">
+							INEM “CARLOS ARTURO TORRES” – TUNJA
+							<br>
+							LENGUA CASTELLANA 
+							<br>
+							GUÍA DE APRENDIZAJE REMOTO 
+							<br>
+							“QUERIDO PRONOMBRE”
+						</div>
+						<div class="col-3">
+							<img src="../../assets/img/uptc.png" class="w-100">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="px-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-2 fixed-bar fixed-bar-left">
+						<ul style="list-style: none;" class="list-group">
+							<li>
+								<a class="btn btn-secondary w-100" href="../../">Volver al menú</a>
+							</li>
+							<li>
+								<a class="btn btn-primary w-100" target="__blank" href="../../resources/Guia%20N.7%20El%20pronombre.pdf">Descargar</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-2 fixed-bar fixed-bar-right">
+						<ul class="list-group">
+							<li class="list-group-item"><a href="#principio">Al principio todo era caos</a></li>
+							<li class="list-group-item"><a href="#dia">hasta que un día, el guerrero supo que</a></li>
+							<li class="list-group-item"><a href="#valeroso">y valeroso se enfrentó a los desafíos</a></li>
+							<li class="list-group-item"><a href="#desde">desde entonces el guerrero entendió que</a></li>
+						</ul>
+					</div>
+
+					<div class="offset-2 col-8 mb-2">
+						<form onsubmit="printData(); return false;" id="data">
+						<div class="card mb-2">
+							<div class="card-body">
+								<div class="row gx-2 gy-2">
+									<div class="col-sm-9">
+										<div class="input-group">
+											<div class="input-group-text">Estudiante</div>
+											<input type="text" class="form-control" placeholder="Estudiante" name="student">
+										</div>
+									</div>
+									<div class="col-sm-3">
+										<div class="input-group">
+											<div class="input-group-text">Grado</div>
+											<div class="form-control">Séptimo</div>
+										</div>
+									</div>
+
+									<div class="col-sm-8">
+										<div class="input-group">
+											<div class="input-group-text">Docente</div>
+											<input type="text" class="form-control" placeholder="Docente" name="teacher">
+										</div>
+									</div>
+
+									<div class="col-sm-4">
+										<div class="input-group">
+											<div class="input-group-text">Fecha</div>
+											<input type="date" name="date" class="form-control">
+										</div>
+									</div>
+								</div>
+								<small><strong>Tiempo de dedicación: </strong> 4 horas</small>
+							</div>
+						</div>
+
+						<div class="card mb-2">
+							<div class="card-body">
+								<table class="table table-bordered">
+									<thead>
+										<tr>
+											<td>OBJETIVO DE APRENDIZAJE</td>
+											<td>ESTÁNDAR</td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>- Reconocer el pronombre, sus características, tipos y uso.</td>
+											<td>
+												- Comprensión e interpretación textual: <input type="checkbox" class="form-check-input" checked disabled><br>
+												- Producción textual: <input class="form-check-input" type="checkbox" checked disabled><br>
+												- Literatura: <input type="checkbox" checked disabled class="form-check-input"><br>
+												- Medios de comunicación y otros sistemas simbólicos: <input class="form-check-input" type="checkbox" disabled> <br>
+												- Ética de la comunicación: <input class="form-check-input" type="checkbox" disabled> <br>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<table class="table table-bordered mt-0">
+									<thead>
+										<tr class="text-center">
+											<td>DBA</td>
+											<td>APRENDIZAJES</td>
+											<td>EVIDENCIAS</td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td class="text-justitfy">
+												Evalúa el uso adecuado de elementos gramaticales, ortográficos y sintácticos en los textos que lee y produce.
+											</td>
+											<td>
+												- Identifica elconceptode pronombre, sus características  particularesy su  uso,  tomando  en  cuenta su  importancia  en  un  texto narrativo específico.
+											</td>
+											<td>
+												-Escribo una carta en donde usodiferentes pronombres de manera adecuada.
+											</td>
+										</tr>
+										<tr>
+											<td colspan="3">
+												Referencias:<br>
+												REAL ACADEMIA ESPAÑOLA. (2009). Nueva gramática de la lengua española. Madrid: Espasa. <br>
+												Ediciones Larousse. (s.f). Gramática Lengua Española Reglas y Ejercicios. <br>
+												Colombia Aprende. (s.f). Reconocimiento de las categorías gramaticales-grado cuarto. <br>
+												<small>Recuperado de: <br>
+												<a href="http://aprende.colombiaaprende.edu.co/sites/default/files/naspublic/ContenidosAprender/G_4/L/SM/SM_L _G04_U02_L01.pdf">http://aprende.colombiaaprende.edu.co/sites/default/files/naspublic/ContenidosAprender/G_4/L/SM/SM_L _G04_U02_L01.pdf</a>
+												<br>
+												Aventuraentrelibros. El Pueblo. Recuperado de: <a href="http://aventurasentrelibros.blogspot.com/2015/03/cuento-con-conjunciones.html">http://aventurasentrelibros.blogspot.com/2015/03/cuento-con-conjunciones.html</a></small>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="card-body">
+								<div class="activity">
+									<div class="activity-title text-center">
+										<div id="principio" class="ribbon-history">
+											<img src="../../assets/img/ribbon-history.png">
+											<h1 class="text-font-freestyle">Al principio todo era caos</h1>
+										</div>
+									</div>
+
+									<div class="activity-body">
+										<div class="row">
+											<div class="offset-3 col-6">
+												Lee y analiza la siguiente tira cómica
+												<img class="w-100" src="img/tuyo.jpg">
+												<hr>
+											</div>
+											<div class="col-12">
+												<div class="form-group">
+													<label class="form-label">En la tira cómica, ¿qué significa la palabra “tuyo”?</label>
+													<textarea class="form-control"></textarea>
+												</div>
+
+												<div class="form-group">
+													<label class="form-label">¿Por qué Agatha prefiere separarse de Gaturro?</label>
+													<textarea class="form-control"></textarea>
+												</div>
+
+												<div class="form-group">
+													<label class="form-label">¿Qué pasa cuando la palabra “tuyo” se divide?</label>
+													<textarea class="form-control"></textarea>
+												</div>
+												<hr>
+											</div>
+
+											<div class="col-12">
+												<div class="alert alert-warning">
+													Lee el siguiente texto con mucha atención, luego contesta las preguntas
+												</div>
+
+												<div id="comegente" class="ribbon-history">
+													<img src="../../assets/img/ribbon-text.png">
+													<div class="ribbon-text">
+														<h1 class="text-font-freestyle">Querida</h1>
+														<br><br>
+														<small>Autoría propia</small>
+													</div>
+												</div>
+													
+												
+												<div class="row">
+													<div class="col-5">
+														<img class="w-100" src="img/querida.jpg">
+													</div>
+													<div class="col-7">
+														<p style="text-align: justify;">Tierra de nadie, 12 de octubre del 1492 <br><br>
+														Querida Reina: <br><br>
+														Espero que la gracia de Dios esté con ustedes, pues a nosotros parece nos ha abandonado. Supongo que es el día sesenta de la misión, eso significa que esta nave, mi nave, ya ha sobrepasado el tiempo estimado en el que yo dije encontraríamos tierra cuando me presenté frente a usted; y cuando usted, benevolente, me dio su bendición. 
+													</div>
+													<div class="col-12">
+														<p style="text-align: justify;">Lamentablemente, el barco se hunde, y con eso se hunde todo lo que alguna vez me perteneció: mis tesoros, mis mapas, mis cartas, mi tripulación, mi querida tripulación, y mi propia vida. Agradezco inmensamente que algunos de mis hombres han podido salvarse, pues ellos, por órdenes de su majestad, decidieron esperarme en tierra firme para otra embarcación. Nunca zarparon en este último viaje, hoy no morirán. Y con razón se quedaron en tierra… <br><br>
+														Los que sucumbieron hoy aquí, en días postreros, me avisaron de mal agüero. Esta mar, su majestad sabrá, es inexplorada por una razón. Nunca han vuelto los navíos que se atreven entrar a ella. Ellos, como buenos marinos, sabían de estas leyendas. Y cuando empezaron a aparecer esas cosas, se aterraron. Ya sabían del final. En repetidas ocasiones me hablaron de una aparición, una sombra envuelta en mil tentáculos que los acechaba con cada paso que daban. Me decían, casi implorándome en los últimos días, larguémonos de estas aguas, Capitán, estas ya no son para los mortales… Debí escucharlos, yo, el capitán, antepuse mi orgullo, el orgullo de nuestra querida nación, sobre la vida de mis hombres. Ahora pago el precio. <br><br>
+														Se lo que viene para mí. No la muerte, pues descansa el que no comete pecado. Yo, que los llevé a la muerte, yo, que no encontré tierra, yo, que no conquisté para su majestad la mar. Yo no merezco morir. Sino vagar eternamente en el infierno de estas aguas profundas llevando a cuesta la vida de mis hombres, sus ideas, sus sentires, sus memorias. Estas ahora son mi hogar. <br><br>
+														Su real alteza, no envíe otra tripulación a este lugar. Este no es para ser conquistado y nunca lo será. <br><br>
+														Me despido para siempre de todos.  Suyo, (Un nombre ilegible)</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<hr>
+									</div>
+
+									<div class="activity-title text-center">
+										<h1 id="principio">Cuentame...</h1>
+									</div>
+									<div class="form-group">
+										<label class="form-label">¿De quién se despide el personaje?</label>
+										<textarea class="form-control"></textarea>
+									</div>
+
+									<div class="form-group">
+										<label class="form-label">¿Qué harías si en algún momento de tu vida te embarcaras en un viaje sin regreso?</label>
+										<textarea class="form-control"></textarea>
+									</div>
+
+									<div class="form-group">
+										<label class="form-label">¿Cómo imaginas que es, físicamente, el personaje?</label>
+										<textarea class="form-control"></textarea>
+									</div>
+
+									<div class="form-group">
+										<label class="form-label">¿Cuál es el tema principal de la carta?</label>
+										<textarea class="form-control"></textarea>
+									</div>
+
+									<div class="form-group">
+										<label class="form-label">¿Cuáles son las palabras que reemplazan los nombres de las personas?</label>
+										<textarea class="form-control"></textarea>
+									</div>
+
+									<div class="form-group">
+										<label class="form-label">¿De quién crees que está hablando el personaje cuando menciona: “Supongo que es el día sesenta de la misión”?</label>
+										<textarea class="form-control"></textarea>
+									</div>
+									<hr>
+								</div>
+
+								<div class="activity">
+									<div class="activity-title text-center">
+										<div id="dia" class="ribbon-history">
+											<img src="../../assets/img/ribbon-history.png">
+											<h1 class="text-font-freestyle">hasta que un día el guerrero supo que</h1>
+										</div>
+									</div>
+
+									<div id="articulo" class="activity-title text-center">
+										<div class="rect rect-blue">
+											<h1>El pronombre</h1>
+										</div>
+									</div>
+
+									<div class="card mb-2">
+										<div class="card-body">
+											Es la palabra que empleamos para reemplazar un nombre dentro de la oración, que ya nombramos anteriormente (y no queremos repetirlo). Lo importante del pronombre es que reemplaza al sustantivo, por lo cual, el pronombre y el sustantivo no pueden aparecer juntos a la vez. <br><br>
+
+											<strong><u>Por ejemplo:</u></strong><br>
+											<strong><u>Usted</u></strong> me dio su bendición. (Se escribe “Usted”, para no repetir: Querida Reina) <br>
+											<strong><u>Yo</u></strong> no merezco morir. (Se escribe “Yo”, para reemplazar “El capitán”)
+										</div>
+									</div>
+
+									<div class="card mb-2">
+										<div class="card-body">
+											De los siguientes pronombres ¿Cuáles no están explícitos o implícitos en el texto? <br>
+
+											<input type="checkbox" class="btn-check" id="ust" autocomplete="off" name="u">
+											<label class="btn btn-outline-danger" for="ust">Usted</label>
+											
+											<input type="checkbox" class="btn-check" id="nos" autocomplete="off" name="n">
+											<label class="btn btn-outline-danger" for="nos">Nosotros</label>
+
+											<input type="checkbox" class="btn-check" id="tu" autocomplete="off" name="t">
+											<label class="btn btn-outline-danger" for="tu">Tú</label>
+
+											<input type="checkbox" class="btn-check" id="ella" autocomplete="off" name="e">
+											<label class="btn btn-outline-danger" for="ella">Ella</label>
+
+											<input type="checkbox" class="btn-check" id="el" autocomplete="off" name="el">
+											<label class="btn btn-outline-danger" for="el">Él</label>
+
+											<input type="checkbox" class="btn-check" id="ellos" autocomplete="off" name="es">
+											<label class="btn btn-outline-danger" for="ellos">Ellos</label>
+
+											<input type="checkbox" class="btn-check" id="yo" autocomplete="off" name="y">
+											<label class="btn btn-outline-danger" for="yo">Yo</label>
+										</div>
+									</div>
+
+									<div class="card">
+										<div class="card-header">
+											Clasificación de los pronombres
+										</div>
+										<div class="card-body">
+											Los pronombres pueden ser: personales (Reemplazan al sujeto de la oración), o posesivos (A quién le pertenece algún objeto de la oración)
+
+											<div class="table-responsive">
+												<table class="table table-bordered">
+													<thead>
+														<tr>
+															<th>Número</th>
+															<th>Persona</th>
+															<th>Personales</th>
+															<th>Posesivos</th>
+														</tr>
+													</thead>
+
+													<tbody>
+														<tr>
+															<th rowspan="4">Singular</th>
+															<td>1ra persona</td>
+															<td>yo</td>
+															<td>mío-mía</td>
+														</tr>
+														<tr>
+															<td>2da persona</td>
+															<td>tú</td>
+															<td>tuyo-tuya</td>
+														</tr>
+														<tr>
+															<td rowspan="2">3ra persona</td>
+															<td>él</td>
+															<td>suyo</td>
+														</tr>
+														<tr>
+															<td>ella</td>
+															<td>suya</td>
+														</tr>
+
+														<tr>
+															<th rowspan="5">Plural</th>
+															<td>1ra persona</td>
+															<td>nosotros</td>
+															<td>nuestro-nuestra</td>
+														</tr>
+														<tr>
+															<td rowspan="2">2da persona</td>
+															<td>vosotros</td>
+															<td>vuestro vuestra</td>
+														</tr>
+														<tr>
+															<td>ustedes</td>
+															<td>suyo-suya</td>
+														</tr>
+														<tr>
+															<td rowspan="2">3ra persona</td>
+															<td>ellos</td>
+															<td>suyos</td>
+														</tr>
+														<tr>
+															<td>ellas</td>
+															<td>suyas</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+
+											<div class="alert alert-success">
+												y demostrativos (indican la proximidad o lejanía respecto al sujeto de la oración).
+											</div>
+
+											<div class="table-responsive">
+												<table class="table table-bordered text-center">
+													<thead>
+														<tr>
+															<th></th>
+															<th>Cerca</th>
+															<th>Distancia media</th>
+															<th>Lejos</th>
+														</tr>
+													</thead>
+
+													<tbody>
+														<tr>
+															<th>Maculino singular</th>
+															<td>este</td>
+															<td>ese</td>
+															<td>aquel</td>
+														</tr>
+														<tr>
+															<th>Femenino singular</th>
+															<td>esta</td>
+															<td>esa</td>
+															<td>aquella</td>
+														</tr>
+														<tr>
+															<th>Masculino plural</th>
+															<td>estos</td>
+															<td>esos</td>
+															<td>aquellos</td>
+														</tr>
+														<tr>
+															<th>Femenino plural</th>
+															<td>estas</td>
+															<td>esas</td>
+															<td>aquellas</td>
+														</tr>
+														<tr>
+															<th>Neutro</th>
+															<td>estos</td>
+															<td>eso</td>
+															<td>aquello</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+
+									<div class="card mt-2">
+										<div class="card-body">
+											2. Une cada pronombre con la oración que le corresponda.
+											<br>
+											<div class="row">
+												<div class="col-3">
+													<div class="drag-words row" draggable="true">
+														<div class="drag-box" draggable="true">Yo</div>
+														<div class="drag-box" draggable="true">Nuestro/a</div>
+														<div class="drag-box" draggable="true">Este</div>
+														<div class="drag-box" draggable="true">Nosotros</div>
+														<div class="drag-box" draggable="true">Estas</div>
+														<div class="drag-box" draggable="true">Eso</div>
+														<div class="drag-box" draggable="true">Ellos</div>
+														<div class="drag-box" draggable="true">Esos</div>
+														<div class="drag-box" draggable="true">Aquel</div>
+														<div class="drag-box" draggable="true">Tú/Usted</div>
+													</div>
+												</div>
+												<div class="drag-fields col-9">
+													<div class="drag-field" style="float: left;"></div>
+													 Me avisaron del mal agüero.
+													<br><br>
+													<div class="drag-field" style="float: left;"></div>
+													 Eso significa que mi nave ya ha sobrepasado el tiempo.
+													<br><br>
+													<div class="drag-field" style="float: left;"></div>
+													 Espero que la gracias de Dios esté con ustedes.
+													<br><br>
+													<div class="drag-field" style="float: left;"></div>
+													 El orgullo de nuestra querida nación.
+													<br><br>
+													<div class="drag-field" style="float: left;"></div>
+													 Los navíos que se atreven a entrar a ella.
+													<br><br>
+													<div class="drag-field" style="float: left;"></div>
+													 Vamos a morir.
+													<br><br>
+													<div class="drag-field" style="float: left;"></div>
+													 El barco se hunde.
+													<br><br>
+													<div class="drag-field" style="float: left;"></div>
+													 Ahora son mi hogar.
+													<br><br>
+													<div class="drag-field" style="float: left;"></div>
+													 Su majestad sabrá.
+													<br><br>
+													<div class="drag-field" style="float: left;"></div>
+													 El día que llegaría a la tierra.
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="activity">
+									<div class="activity-title text-center">
+										<div id="valeroso" class="ribbon-history">
+											<img src="../../assets/img/ribbon-history.png">
+											<h1 class="text-font-freestyle">Y valeroso se enfrentó a los desafíos</h1>
+										</div>
+									</div>
+
+									<div class="card mb-2">
+										<div class="card-body">
+											Para esta actividad escribirás una carta en la que utilizarás los tipos de pronombres. Subrayarás los pronombres personales de <span class="text-yellow">amarillo</span>, los posesivos de <span class="text-red">rojo</span> y demostrativos de <span class="text-blue">azul</span>.<br><br>
+
+											<textarea id="summernote" name="text">
+												Estimado... 
+												<br><br>
+												Quisiera...
+												<br><br>
+												Atentamente...
+											</textarea>
+										</div>
+									</div>
+
+									<div class="activity-title text-center">
+										<div id="desde" class="ribbon-history">
+											<img src="../../assets/img/ribbon-history.png">
+											<h1 class="text-font-freestyle">Desde entonces, el guerrero sabe que:</h1>
+										</div>
+									</div>
+
+									<div class="alert alert-success">
+										Los pronombres son palabras que sustituyen al sustantivo y que realizan  su  misma  función  dentro  de  la  oración. Al  utilizar  un pronombre,se sabeexactamente a que sustantivo sustituye, bien porque  ya  se  mencionó  anteriormente  y  así  evitamos  repetirlo, bien porque se sabe perfectamente de quién se trata.
+									</div>
+
+									<div class="ribbon-history">
+										<img src="../../assets/img/ribbon-blue.png">
+										<h1 class="text-font-freestyle">Y finalmente orden en el mundo de la gramática.</h1>
+									</div>
+
+								</div>
+							</div>
+							<div class="card-body">
+								<button class="btn btn-success w-100">Ver respuestas</button>
+							</div>
+						</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../../assets/drag-n-drop.js"></script>
+	<script type="text/javascript" src="../../assets/js/common.js"></script>
+	<script type="text/javascript">
+
+		$('#summernote').summernote({
+			placeholder: 'DlG',
+			tabsize: 2,
+			height: 400,
+			toolbar: [
+				['font', ['bold', 'underline', 'clear']],
+				['color', ['color']],
+			]
+		});
+	</script>
+
+</body>
+</html>

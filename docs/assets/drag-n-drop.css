@@ -1,0 +1,43 @@
+.drag-words{
+	border-color: black;
+	border-width: .2px;
+	border: solid;
+	padding: 5px;
+	display: flex;
+	min-height: 50px;
+}
+.drag-box{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+	border: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: black;
+	background: gray;
+	color: white;
+}
+
+.drag-field{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 5px;
+	color: transparent;
+	min-height: 35px;
+}
+
+.drag-words.over,
+.drag-field.over {
+	border: 3px dotted #666;
+}
+
+.drag-box{
+	cursor: move;
+}

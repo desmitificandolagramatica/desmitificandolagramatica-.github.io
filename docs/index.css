@@ -1,0 +1,91 @@
+.spirit-block{
+	height: 100vh;
+	background: #7BFAF0
+}
+
+.text-gram-block{
+	opacity: 0.8
+}
+
+.text-gram-cont{
+	margin-top: -40px;
+}
+
+.logo-container {
+	position: relative;
+}
+
+.spirit-pos-abs-0{
+	position: absolute;
+	top: 0
+}
+
+.guide-block-none{
+	display: none
+}
+
+.rotate{
+	animation-duration: 10s;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+  	animation-name: rotate;
+}
+
+.dance{
+	animation-duration: 10s;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+  	animation-name: dance;
+}
+
+@keyframes rotate {
+
+	20%{
+		transform: rotate(120deg);
+	}
+
+	25%{
+		transform: rotate(90deg);
+	}
+
+	45%{
+		transform: rotate(210deg);
+	}
+
+	50%{
+		transform: rotate(180deg);
+	}
+
+	70%{
+		transform: rotate(300deg);
+	}
+
+	75%{
+		transform: rotate(270deg);
+	}
+
+	95%{
+		transform: rotate(380deg);
+	}
+
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes dance {
+
+	25%{
+		transform: rotate(15deg);
+	}
+
+	75%{
+		transform: rotate(-15deg);
+	}
+
+	100%{
+		transform: rotate(0deg);
+	}
+}
